@@ -1,12 +1,10 @@
 # Construir una función que reciba un valor entero como parámetro y que determine si su último dígito es 4.
 
 def mostar_ultimo_digito(n):
-    e=n
-    n=n%10
-    if n==4:
-        print(f"El ultimo dígito de {e} es cuatro1")
+    if n%10==4:
+        print(f"El ultimo dígito de {n} es cuatro")
     else:
-        print(f"El ultimo dígito de {e} no es cuatro")
+        print(f"El ultimo dígito de {n} no es cuatro")
            
 
 
