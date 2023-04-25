@@ -18,3 +18,6 @@ TABLA DEL __
 
 
 2. Construir una función que reciba un valor entero como parámetro y que determine si su último dígito es 4.
+
+3. Verificar la siguiente curiosidad matematica:
+el cuadrado de un numero positivo n es igual a la suma de los primeros n numeros impares ej: n=7 49 sum=1+3+5+7+9+11+13
