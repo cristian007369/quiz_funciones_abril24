@@ -11,9 +11,9 @@ def verificar_curiosidad_matematica(n):
 n=int(input("Dígite un número entero positivo:\n"))
 print(verificar_curiosidad_matematica(n))
 
-def verificar(n):
+def verificar_n(n):
     lista=list(range(1,2*n,2))
     suma=sum(lista)
     return (print(f"{n}^2={n**2}",f"que es la suma de {' + '.join(map(str, lista))}",f"= {suma}"))
 
-verificar(n)
+verificar_n(n)
